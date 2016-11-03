@@ -32,7 +32,7 @@ namespace BankAccountNS
         {
             get { return m_balance; }
         }
-        //method under test
+        //TÄTÄ TESTATAAN!
         public void Debit(double amount)
         {
             if (m_frozen)
